@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+.BkImage{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("OIP\ \(1\).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.navBar{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    background-color: rgba(234, 237, 241, 0.548);
+    
+}
+
+.ncolor{
+    color:orangered;
+    opacity:200%;
+    padding-left: 30px;
+    padding-top: 8px;
+    font-family: gabriola;
+       font-size: 30px;
+}
+.color{
+    color: #000;
+    padding-left: 9px;
+    padding-top: 8px;
+    font-family: gabriola;
+    font-size: 30px;
+}
+.Links{
+    margin-top: 10px;
+    margin-left: 500px;
+
+}
+
+.Links > a{
+    padding-left: 20px;
+    font-family: calibri;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  
+    
+}
+.Links > button{
+    margin-left: 20px;
+    height: 40px;
+    width: 70px;
+    color: white;
+    background-color: orangered;
+    border: 0px solid transparent;
+    font-size: 20px;
+    font-family:gabriola;
+    border-radius: 2px;
+    font-weight: 800;
+}
+.opac{
+    height: 92%;
+    width: 100%;
+    background-color: rgba(234, 237, 241, 0.185);
+   }
+.motive, .motives, .motiv{
+    display: flex;
+    justify-content: center;
+    font-family: calibri;
+}
+.motive{
+padding-top: 190px;
+color: #000;
+font-weight: 800;
+font-size: 28px;
+font-family: calibri;
+}
+.motives{
+    padding-top: 10px;
+    color: #000;
+    font-size:30px;
+    word-spacing: 10px;
+    font-weight: lighter;
+    font-family: 'Arial';
+}
+
+.motiv{
+    font-weight: 800;
+  
+}
+.motiv > button{
+    margin-top: 20px;
+    border-radius: 2px;
+    width: 150px;
+    height: 40px;
+    background-color: orangered;
+    color: whitesmoke;
+    border: 0px solid transparent;
+    font-family: gabriola;
+    font-size:20px;
+
+
+}
